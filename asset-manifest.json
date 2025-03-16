@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/QuestForge-GameApp/static/css/main.f855e6bc.css",
+    "main.js": "/QuestForge-GameApp/static/js/main.db7460cd.js",
+    "static/js/453.66e550e8.chunk.js": "/QuestForge-GameApp/static/js/453.66e550e8.chunk.js",
+    "static/media/logo.svg": "/QuestForge-GameApp/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/QuestForge-GameApp/index.html",
+    "main.f855e6bc.css.map": "/QuestForge-GameApp/static/css/main.f855e6bc.css.map",
+    "main.db7460cd.js.map": "/QuestForge-GameApp/static/js/main.db7460cd.js.map",
+    "453.66e550e8.chunk.js.map": "/QuestForge-GameApp/static/js/453.66e550e8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.db7460cd.js"
+  ]
+}
