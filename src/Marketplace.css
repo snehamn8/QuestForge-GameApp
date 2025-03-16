@@ -1,0 +1,73 @@
+.marketplace-container {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to right, #1a1a1a, #333);
+    min-height: 100vh;
+    color: white;
+}
+
+.marketplace-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffcc00;
+    text-shadow: 2px 2px 5px rgba(255, 204, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+.marketplace-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.market-item {
+    background: #222;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.market-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(255, 255, 255, 0.4);
+}
+
+.item-image {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.item-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+.item-price {
+    font-size: 16px;
+    color: #ddd;
+    margin: 8px 0;
+}
+
+.buy-button {
+    background: linear-gradient(45deg, #ff7300, #ffcc00);
+    color: black;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.buy-button:hover {
+    background: linear-gradient(45deg, #ff5500, #ffaa00);
+    transform: scale(1.1);
+}

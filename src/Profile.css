@@ -1,0 +1,126 @@
+/* Profile Page Styles */
+.profile-container {
+    background: linear-gradient(135deg, #1e1e2f, #3a3a5f);
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* User Avatar */
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #ffcc00;
+    transition: transform 0.3s;
+}
+
+.avatar:hover {
+    transform: scale(1.1);
+}
+
+/* Profile Header */
+.profile-header h2 {
+    margin-top: 10px;
+    font-size: 22px;
+    color: #ffcc00;
+}
+
+.profile-header p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #ff7300;
+}
+
+/* Friends & Community Section */
+.friends-section {
+    margin-top: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(255, 255, 255, 0.2);
+}
+
+.friends-section h3 {
+    color: #ffcc00;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.friends-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.friends-section li {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 8px;
+    margin: 5px;
+    border-radius: 6px;
+    transition: background 0.3s, transform 0.3s;
+    cursor: pointer;
+}
+
+.friends-section li:hover {
+    background: linear-gradient(45deg, #ffcc00, #ff7300);
+    color: black;
+    transform: scale(1.05);
+}
+
+/* Profile Buttons */
+.profile-actions {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.profile-actions button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.edit-btn {
+    background: #ff7300;
+    color: white;
+}
+
+.edit-btn:hover {
+    background: #ff5500;
+    transform: scale(1.05);
+}
+
+.settings-btn {
+    background: #4444ff;
+    color: white;
+}
+
+.settings-btn:hover {
+    background: #2222ff;
+    transform: scale(1.05);
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
